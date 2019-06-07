@@ -10,19 +10,21 @@
     <script src="js/scripts.js"></script>
   </head>
   <body>
-    <div class="container">
+    <div class="container-top">
       <div class="jumbotron text-center">
         <h1>Programming Language Suggester</h1> 
       </div>
-      <div class="row text-center">
+      <div class="container tower-top">
+        <div class="row text-center">
           <div class="col-md-12">
            <h1>Tell us a little bit about yourself!</h1> 
           </div>
         </div>
-      <div class="container">
-          <form>
-          <div class="row">
-            <div class="col-md-12">
+      </div>
+      <div class="container-middle">
+        <form>
+          <div class="row-radio">
+            <div class="col-md-6">
               <h2>What would you like to do more?</h2>
               <div class="radio">
                 <label><input type="radio" name="activity" value="instagram" checked>Scroll through pictures on Instagram</label>
@@ -34,7 +36,7 @@
                 <label><input type="radio" name="activity" value="games">Play interactive games</label>
               </div>
             </div>
-            <div class="col-md-12">
+            <div class="col-md-6">
               <h2>You favorite place to be?</h2>
               <div class="radio">
                 <label><input type="radio" name="place" value="kitchen" checked>At home on your kitchen</label>
@@ -47,35 +49,52 @@
               </div>
             </div>
           </div>
-          <div class="row">
-            <div class="col-md-12">
+          <div class="row-radio">
+            <div class="col-md-6">
               <h2>What are your toys?</h2>
               <div class="radio">
-                <label><input type="radio" name="place" value="hummer" checked>Hummer</label>
+                <label><input type="radio" name="toys" value="hummer" checked>Hummer</label>
               </div>
               <div class="radio">
-                <label><input type="radio" name="place" value="joystick">Joystick</label>
+                <label><input type="radio" name="toys" value="joystick">Joystick</label>
               </div>
               <div class="radio">
-                <label><input type="radio" name="place" value="cars">Cars</label>
+                <label><input type="radio" name="toys" value="cars">Cars</label>
               </div>
             </div>
-            <div class="col-md-12">
+            <div class="col-md-6">
                 <h2>Do you workout?</h2>
                 <div class="radio">
-                  <label><input type="radio" name="place" value="kitchen" checked>Yes</label>
+                  <label><input type="radio" name="workout" value="kitchen" checked>Yes</label>
                 </div>
                 <div class="radio">
-                  <label><input type="radio" name="place" value="room">No</label>
+                  <label><input type="radio" name="workout" value="room">No</label>
                 </div>
                 <div class="radio">
-                  <label><input type="radio" name="place" value="outdoors">What is "workout"?</label>
+                  <label><input type="radio" name="workout" value="outdoors">What is "workout"?</label>
+                </div>
+            </div>
+          </div>
+          <div class="container-bottom-top">
+            <div class="row-button text-center" id="button">
+              <div class="col-md-12">
+                <button type="button" class="btn btn-warning">Good Luck</button>
+              </div>
+            </div>
+          </div>
+        </form>
+        </div>
+          <div class="container-bottom">
+            <div class="row text-center">
+              <div class="card" id="result">
+                <div class="col-md-12">
+                  <h3 class="result">Your Language</h3>
+                  
                 </div>
               </div>
-          </div>
-          </form>
+            </div>
         </div>
-      </div>
+
     </div>
 
 

@@ -1,4 +1,42 @@
 .jumbotron {
   background-size: cover;
+  margin-top: 0em;
+  padding-bottom: 3em;
+  padding-top: 2em;
+}
+
+.jumbotron h1 {
+  font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+.jumbotron p {
+  font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+.row h1 {
+  font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+.row-radio {
+  margin-left: 4em;
   margin-top: 3em;
+  background-color: red;
+}
+.radio {
+  background-color: yellow;
+}
+.row-button {
+  margin-top: 3em;
+}
+.container-bottom {
+  /* margin: 5em; */
+  background-clip: pink;
+  padding: 200px;
+}
+.card {
+  background-color: pink;
+  padding: 200px;
+}
+.footer {
+  padding: 2em;
 }
