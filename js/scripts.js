@@ -4,7 +4,8 @@ $(document).ready(function() {
   var activity = $("input[name='activity']:checked").val();
   var place = $("input[name='place']:checked").val();
   var toys = $("input[name='toys']:checked").val();
-  var workout = $("input[name='workout']:checked").val();  
+  var workout = $("input[name='workout']:checked").val();
+  var love = $("input[name='love']:checked").val();  
 
   if (activity === "instagram" && place === "outdoors") {
     $("#your-language").text("Ruby");
@@ -29,7 +30,11 @@ $(document).ready(function() {
   } else if (activity === "games" && workout === "yes") {
     $("#your-language").text("Python");
   }
+
   
+  
+  $("#hide").show();
+
   event.preventDefault();
   
   });

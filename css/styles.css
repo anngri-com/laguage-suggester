@@ -27,6 +27,11 @@
   padding: 40px;
   padding-bottom: 200px;
 }
+.row-radio3 {
+  margin: 0 10px;
+  padding: 40px;
+  padding-bottom: 200px;
+}
 .row-button {
   margin: 20px;
   margin-top: 10px;
@@ -43,6 +48,16 @@
   outline-style: solid;
   outline-color: darkgrey;
   outline-width: thick;
+}
+
+#hide {
+  display: none;
+  font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-size: 20px;
+  padding: 60px;
+  margin: 20px;
+  padding: 30px;
+  padding-bottom: 100px;
 }
 .footer {
   padding: 2em;
