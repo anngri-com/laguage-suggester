@@ -7,16 +7,12 @@ body {
   padding-bottom: 3em;
   padding-top: 2em;
   background-color: #bde4f4;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 3px 20px 0 rgba(0, 0, 0, 0.17);
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2), 0 3px 20px 0 rgba(0, 0, 0, 0.17);
 }
 
 .jumbotron h1 {
   font-family:'Times New Roman', Times, serif;
-  font-size: 60px;
-}
-
-.jumbotron p {
-  font-family:'Times New Roman', Times, serif;
+  font-size: 45px;
 }
 .container {
   background-color: #f5feff;
@@ -24,21 +20,28 @@ body {
 
 .row h1 {
   font-family:'Times New Roman', Times, serif;
+  font-size: 35px;
 }
-
+h2 {
+  font-size: 25px;
+}
 .row-radio1 {
   margin: 10px;
-  padding: 40px;
+  margin-left: 135px;
+  padding-left: 20px;
   padding-bottom: 90px;
 }
 .row-radio2 {
-  margin: 0 10px;
-  padding: 40px;
+  margin: 10px;
+  margin-left: 135px;
+  padding-left: 20px;
   padding-bottom: 70px;
 }
 .row-radio3 {
-  margin: 0 10px;
-  padding: 40px;
+  margin: 10px;
+  margin-left: 135px;
+  padding-left: 20px;
+  padding-top: 30px;
   padding-bottom: 70px;
 }
 .row-button {
@@ -53,10 +56,10 @@ body {
   margin: 20px;
   padding: 50px;
   padding-bottom: 200px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 3px 20px 0 rgba(0, 0, 0, 0.17);
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2), 0 3px 20px 0 rgba(0, 0, 0, 0.17);
 }
 
-#hide {
+#recommendation {
   display: none;
   font-family:'Times New Roman', Times, serif;
   font-size: 20px;

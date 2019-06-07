@@ -33,11 +33,13 @@ $(document).ready(function() {
 
   if (love === "yes") {
     $("#coding-love").show();
+    $("#coding-hate").hide();
   } else if (love === "no") {
     $("#coding-hate").show();
+    $("#coding-love").hide();
   }
   
-  $("#hide").show();
+  $("#recommendation").show();
   $('.loader').hide();
 
   event.preventDefault();
