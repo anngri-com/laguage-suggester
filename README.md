@@ -11,7 +11,7 @@ _An application for people interested in coding to decide which language they sh
 ## Setup/Installation Requirements
 
 _To see the portfolio in action:_
-* _Navigate to the [GitHub pages]https://anngri-com.github.io/laguage-suggester/_
+* _Navigate to the [GitHub pages](https://anngri-com.github.io/laguage-suggester/)_
 
 ## Known Bugs
 
