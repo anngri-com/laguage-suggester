@@ -38,6 +38,7 @@ $(document).ready(function() {
   }
   
   $("#hide").show();
+  $('.loader').hide();
 
   event.preventDefault();
   
