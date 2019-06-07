@@ -1,21 +1,30 @@
-Programming Language Suggester
-Created June 7, 2019
-By Anna Gritsai
-Description
-An application for people interested in coding to decide which language they should learn first.
+# _Programming Language Suggester_
 
-Setup/Installation Requirements
-To see the page in action:
-Navigate to the GitHub pages: https://anngri-com.github.io/laguage-suggester/
+#### _Created June 7, 2019_
 
-Known Bugs
-None
+#### By _**Anna Gritsai**_
 
-Support and contact details
-Please contact Anna Gritsai at anna.gritsay@gmail.com, if any questions or comments.
+## Description
 
-Technologies Used
-HTML, CSS, Bootstrap, JQuery and JavaScript
+_An application for people interested in coding to decide which language they should learn first._
 
-License
-Copyright (c) 2019 Anna Gritsai
+## Setup/Installation Requirements
+
+_To see the portfolio in action:_
+* _Navigate to the [GitHub pages]https://anngri-com.github.io/laguage-suggester/_
+
+## Known Bugs
+
+_None_
+
+## Support and contact details
+
+_Please contact Anna Gritsai at anna.gritsay@gmail.com, if any questions or comments._
+
+## Technologies Used
+
+_HTML, CSS, Bootstrap, JQuery and JavaScript_
+
+### License
+
+Copyright (c) 2019 **_Anna Gritsai_**
