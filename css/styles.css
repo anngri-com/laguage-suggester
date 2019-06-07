@@ -17,25 +17,32 @@
   font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
 
-.row-radio {
-  margin-left: 4em;
-  margin-top: 3em;
-  background-color: red;
+.row-radio1 {
+  margin: 10px;
+  padding: 40px;
+  padding-bottom: 200px;
 }
-.radio {
-  background-color: yellow;
+.row-radio2 {
+  margin: 0 10px;
+  padding: 40px;
+  padding-bottom: 200px;
 }
 .row-button {
-  margin-top: 3em;
-}
-.container-bottom {
-  /* margin: 5em; */
-  background-clip: pink;
-  padding: 200px;
+  margin: 20px;
+  margin-top: 10px;
+  padding: 40px;
+  padding-bottom: 100px;
 }
 .card {
-  background-color: pink;
+  background-color: rgb(223, 219, 219);
   padding: 200px;
+  margin: 20px;
+  padding: 50px;
+  padding-bottom: 200px;
+  border: 1px solid rgb(179, 177, 177);
+  outline-style: solid;
+  outline-color: darkgrey;
+  outline-width: thick;
 }
 .footer {
   padding: 2em;
