@@ -31,7 +31,11 @@ $(document).ready(function() {
     $("#your-language").text("Python");
   }
 
-  
+  if (love === "yes") {
+    $("#coding-love").show();
+  } else if (love === "no") {
+    $("#coding-hate").show();
+  }
   
   $("#hide").show();
 
