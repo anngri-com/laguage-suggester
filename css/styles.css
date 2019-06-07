@@ -12,6 +12,9 @@
 .jumbotron p {
   font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
+.container {
+  background-color: rgba(5, 190, 236, 0.301);
+}
 
 .row h1 {
   font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
@@ -44,10 +47,7 @@
   margin: 20px;
   padding: 50px;
   padding-bottom: 200px;
-  border: 1px solid rgb(179, 177, 177);
-  outline-style: solid;
-  outline-color: darkgrey;
-  outline-width: thick;
+
 }
 
 #hide {
