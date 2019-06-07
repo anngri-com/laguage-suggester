@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
+    <script src="js/jquery-3.4.1.js"></script>
+    <script src="js/scripts.js"></script>
   </head>
   <body>
     <div class="container">
@@ -18,33 +20,63 @@
           </div>
         </div>
       <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <h2>What would you like to do more:</h2>
-            <form>
+          <form>
+          <div class="row">
+            <div class="col-md-12">
+              <h2>What would you like to do more?</h2>
               <div class="radio">
-                <label><input type="radio" name="a" checked>Scroll through pictures on Instagram</label>
+                <label><input type="radio" name="activity" value="instagram" checked>Scroll through pictures on Instagram</label>
               </div>
               <div class="radio">
-                <label><input type="radio" name="b">Read books</label>
+                <label><input type="radio" name="activity" value="books">Read books</label>
               </div>
               <div class="radio">
-                <label><input type="radio" name="c" disabled>Play interactive games</label>
+                <label><input type="radio" name="activity" value="games">Play interactive games</label>
               </div>
-              <h2>You favorite place to be:</h2>
+            </div>
+            <div class="col-md-12">
+              <h2>You favorite place to be?</h2>
               <div class="radio">
-                <label><input type="radio" name="a" checked>At home on your kitchen</label>
+                <label><input type="radio" name="place" value="kitchen" checked>At home on your kitchen</label>
               </div>
               <div class="radio">
-                <label><input type="radio" name="b">In a dark room</label>
+                <label><input type="radio" name="place" value="room">In a dark room</label>
               </div>
               <div class="radio">
-                <label><input type="radio" name="c" disabled>Outdoors</label>
+                <label><input type="radio" name="place" value="outdoors">Outdoors</label>
               </div>
-            </form>
+            </div>
           </div>
+          <div class="row">
+            <div class="col-md-12">
+              <h2>What are your toys?</h2>
+              <div class="radio">
+                <label><input type="radio" name="place" value="hummer" checked>Hummer</label>
+              </div>
+              <div class="radio">
+                <label><input type="radio" name="place" value="joystick">Joystick</label>
+              </div>
+              <div class="radio">
+                <label><input type="radio" name="place" value="cars">Cars</label>
+              </div>
+            </div>
+            <div class="col-md-12">
+                <h2>Do you workout?</h2>
+                <div class="radio">
+                  <label><input type="radio" name="place" value="kitchen" checked>Yes</label>
+                </div>
+                <div class="radio">
+                  <label><input type="radio" name="place" value="room">No</label>
+                </div>
+                <div class="radio">
+                  <label><input type="radio" name="place" value="outdoors">What is "workout"?</label>
+                </div>
+              </div>
+          </div>
+          </form>
         </div>
       </div>
+    </div>
 
 
 
